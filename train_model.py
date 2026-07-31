@@ -14,13 +14,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-# ------------------------------------------------------------
-# >>> SET YOUR DATASET PATH HERE <<<
-# Since you already downloaded the dataset, just point this to
-# your local heart.csv file (same folder as this script, or a
-# full path like "/content/heart.csv" in Colab, or
-# "C:/Users/you/Downloads/heart.csv" on Windows).
-# ------------------------------------------------------------
+
 DATA_PATH = "heart.csv"
 
 # ============================================================
