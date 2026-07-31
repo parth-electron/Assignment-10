@@ -60,9 +60,9 @@ Prediction: "Heart Disease Detected" / "No Heart Disease Detected"
 ## Results
 | Metric | Value |
 |---|---|
-| Test Accuracy | *fil |
+| Test Accuracy | 0.8098 |
 
-*(Run `python train_model.py` and copy the printed "Test Accuracy" value into the table above before submitting.)*
+
 
 ## API Usage Example
 
@@ -86,7 +86,7 @@ curl -X POST https://<your-render-url>/predict \
 ```
 
 ## Live Deployment
-Render URL: **`<paste your live Render URL here>`**
+Render URL: **[Heart_disease_prediction_link](https://assignment-10-8vqh.onrender.com)**
 
 ## Conclusion
 This project trained a Logistic Regression model to predict heart disease
